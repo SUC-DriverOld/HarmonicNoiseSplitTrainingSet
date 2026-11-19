@@ -1,0 +1,22 @@
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python, Numba, and test caches
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Synthesized audio and example export directories (including metadata)
+*.wav
+/generated_audio/
+/pairs/
+/pairs_*/
